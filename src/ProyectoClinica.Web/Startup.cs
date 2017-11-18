@@ -74,7 +74,7 @@ namespace ProyectoClinica.Web
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            //Prueba
+            //Prueba00
         }
     }
 }
