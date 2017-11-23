@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ProyectoClinica.Web.Controllers
 {
-    public class ProgramacionController : Controller
+    public class ImportarDoctoresController : Controller
     {
-        public ProgramacionController()
+        public ImportarDoctoresController()
         {
 
         }
@@ -17,6 +17,10 @@ namespace ProyectoClinica.Web.Controllers
         {
             return View();
         }
-            
+
+        public IActionResult ImportarDoctores()
+        {
+            return RedirectToAction("Index");
+        }
     }
 }

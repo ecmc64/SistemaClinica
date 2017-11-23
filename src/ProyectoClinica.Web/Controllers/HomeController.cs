@@ -32,4 +32,16 @@ namespace ProyectoClinica.Web.Controllers
             return View();
         }
     }
+    /*
+     Mantenimientos
+	Doctores
+	Importar Doctores
+Citas
+	Programa de Atencion
+	Reserva de cita
+	Atención de Pacientes
+Reportes
+	Pacientes Atendidos
+	Reporte de Citas Atendidas
+     */
 }
