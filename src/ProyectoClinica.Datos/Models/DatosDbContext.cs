@@ -41,7 +41,7 @@ namespace ProyectoClinica.Datos.Models
 
             modelBuilder.Entity<Especialidad>(entity =>
             {
-                entity.HasKey(e => e.EscecialidadId)
+                entity.HasKey(e => e.EspecialidadId)
                     .HasName("XPKEspecialidad");
 
                 entity.Property(e => e.Descripcion).HasColumnType("varchar(50)");
