@@ -17,6 +17,11 @@ namespace ProyectoClinica.Web.Controllers
         {
             return View();
         }
+
+        public IActionResult ProgramarAtencion()
+        {
+            return View();
+        }
             
     }
 }
